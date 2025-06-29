@@ -30,7 +30,6 @@ body{
 
 
 .menu-container {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -42,7 +41,7 @@ body{
 
 .menu{
   width: 100%;
-  background-color:var(--cor-04);
+  background-color: var(--cor-04); 
   font-family: "Oswald", sans-serif;
   list-style: none;
   display: flex;
@@ -97,7 +96,7 @@ body{
   transition: 0.3s;
 }
 #img01{
-  margin-top: 15px;
+  margin-top: -30px;
   margin: 15px 0px 0px -7px;
 }
 .caixa-busca {
@@ -108,6 +107,15 @@ body{
  cursor: pointer;
  padding-bottom: 150px;
 
+}
+#cx01{
+  width: 400px; 
+  height: 35px;
+   border-radius: 10px;  
+   border: 1px solid #9e9e9e;
+  font-size: 1.2em;
+  cursor: pointer;
+  max-width: 480;
 }
 #cx01:hover {
    background-color: lightgrey;
@@ -695,7 +703,7 @@ body{
 #ft-001{
   width: 100%;
 }
-.caixa-busca{
+#cx01{
   width: 300px;
   height: 25px;
   justify-content: center;
