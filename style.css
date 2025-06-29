@@ -11,7 +11,9 @@
   --cor-03:darkblue;
   --cor-04: rgb(229,229,229);
   --cor-05:#EAF4FB;}
-
+*{
+  max-width: 100%;
+}
 
 body{
     background-color:var(--cor-01);
@@ -688,18 +690,5 @@ body{
 }
 #qm01{
   margin-top: -122px;
-  
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
+}
