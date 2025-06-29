@@ -13,15 +13,16 @@
   --cor-05:#EAF4FB;}
 *{
   max-width: 100%;
+
 }
 
 body{
     background-color:var(--cor-01);
     background-image: url(img/img-fundo\ \(2\).png);
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
-    
+    height: 100vh;
     overflow-x: hidden;
     margin: 8px 8px 8px 8px;
     
@@ -632,12 +633,12 @@ body{
 
  .rp01{
     justify-content: center;
-    gap: 55px;
+    gap: 25px;
    font-size: 0.9em;
  }
 
 #h201{
-  justify-content: center;
+  text-align: center;
     font-size: 1.9em;
     width: 80%;
  }
@@ -689,6 +690,18 @@ body{
 
 }
 #qm01{
-  margin-top: -122px;
+  margin-top: -132px;
+}
+#ft-001{
+  width: 100%;
+}
+.caixa-busca{
+  width: 300px;
+  height: 25px;
+  justify-content: center;
+}
+#finalpg01{
+  justify-content: center;
+  color: black;
 }
 }
