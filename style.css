@@ -616,7 +616,7 @@ body{
 @media screen and (max-width:480px)
 {
   body{
-    background-image: url(img/img-fundo\ m.png);
+    background-image: none;
   }
   .menu-container {
     width: 100%;
@@ -647,7 +647,7 @@ body{
   }
   #ft-001 img{
   margin-top: -15px;
-  max-width: 125%
+  max-width: 100%
 }
 #cx01{
   width: 75%;
