@@ -546,6 +546,7 @@ body{
 
 
 .faq-item {
+
   background-color: #fff;
   border-radius: 10px;
   padding: 15px 20px;
@@ -568,13 +569,14 @@ body{
 }
 
 .faq-toggle {
+  
   font-weight: bold;
   font-size: 1.5em;
   transition: transform 0.2s ease;
 }
 
 .faq-resposta {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-top: 10px;
   display: none;
   animation: fadeIn 0.3s ease forwards;
@@ -611,7 +613,7 @@ body{
 
 
 
-@media screen and (max-width:700px)
+@media screen and (max-width:480px)
 {
 
   .menu-container {
@@ -622,9 +624,9 @@ body{
   }
 
   .menu {
-
+  width: 100%;
+   padding: 0;
     gap: 10px;
-    padding: 0;
     margin: 0;
     font-size: 1em; /* Reduz o tamanho da fonte */
     align-items: center;
@@ -634,15 +636,44 @@ body{
     width: 100%;
     text-align: center;
   }
+  #menu00{
+    width: 75%;
+  }
 
   .carrinho {
     margin: 0;
   }
-
- .rp01{
-    justify-content: center;
-    gap: 25px;
+  #ft-001 img{
+  padding: auto;
+  width: 120%;
+}
+#cx01{
+  width: 75%;
+  height: 25px;
+  justify-content: center;
+}
+#bt01{
+  height: 25px;
+}
+#bt01:hover{
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+.rp01{
+   display: flex;
+   padding: 0;
+  justify-content: center;
+    gap: 10px;
    font-size: 0.9em;
+ }
+ .rp01 li{
+  padding: 5px;
+  width: 45%;
+  text-align: center;
+ }
+ .rp01 img{
+  max-width: 75%;
+
  }
 
 #h201{
@@ -655,7 +686,7 @@ body{
   display: block;
   margin: auto;
   column-count: 2;
-  width: 100%;
+  width: 80%;
   gap: 10px;
 
 
@@ -689,27 +720,25 @@ body{
   margin: auto;
 }
 #pp01{
-    font-size: 1.7em;
+    font-size: 1.3em;
     width: 80%;
 }
+
 #ft-lav img{
  justify-content: center;
  width: 100%;
 
 }
 #qm01{
-  margin-top: -132px;
+  margin-top: -157px;
 }
-#ft-001{
-  width: 100%;
-}
-#cx01{
-  width: 300px;
-  height: 25px;
-  justify-content: center;
-}
-#finalpg01{
+
+
+#faq-item li{
   justify-content: center;
   color: black;
+}
+#faq-resposta p{
+  font-size: 0.7em;
 }
 }
