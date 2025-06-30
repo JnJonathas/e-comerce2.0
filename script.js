@@ -38,3 +38,10 @@ promocoes.forEach(item => {
     item.classList.add('ativo'); // adiciona ao clicado
   });
 });
+if (window.innerWidth <= 768) {
+  document.querySelectorAll('.sem-hover').forEach(function(botao) {
+    botao.addEventListener('click', function() {
+      this.classList.toggle('ativo'); // Alterna a classe
+    });
+  });
+}
