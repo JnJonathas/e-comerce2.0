@@ -133,7 +133,7 @@ body{
 }
 #bt01:hover{
     background-color: lightgrey;
-    height: 45px;
+
 }
 /*menu02*/
 .rp01 {
@@ -615,19 +615,116 @@ body{
      background-color: rgb(229, 229, 229);
      margin-top: -30px;
 }
-@media screen and(max-width:1200px)
+@media screen and (max-width:1024px)
  {
- .rp01{
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  column-count: 2;
+  *{
+    max-width: 100%;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+  }
+
+ #bt01{
+  height: 25px;
  }
 
+#bt01:hover{
+height: none;
+transform: none;
+ }
+
+ .rp01{
+   margin-top: -95px;
+   display: flex;
+   padding: 5px;
+  justify-content: center;
+  text-align: center;
+   font-size: 0.9em;
+   gap: 27px;
+ }
+ .rp01 li{
+  padding: 5px;
+  width: 35%;
+  text-align: center;
+ }
+ .rp01 img{
+  max-width: 75%;
+
+ }
+ .rp02{
+   margin-top: -25px;
+   display: flex;
+   padding: 5px;
+  justify-content: center;
+    gap: 25px;
+   font-size: 0.95em;
+  height: 250px;
+ }
+ .rp02 li{
+  padding: 10px;
+  width: 35%;
+  text-align: center;
+ }
+ .rp02 img{
+  max-width: 75%;
+
+ }
+ #h201{
+  font-size: 1.9em;
+  width: 50%;
+  padding: 10px;
+ }
+
+ #ul03{
+  justify-content: center;
+  display: block;
+  margin: auto;
+  column-count: 2;
+  width: 75%;
+  gap: 45px;
+  margin-left: 150px;
+
+ }
+
+.destaque {
+  justify-content: center;
+  width: 190px;
 }
 
+.destaque img {
+  justify-content: center;
+  width: 100%; 
+  border-radius: 10px;
+}
 
+.desc {
+  justify-content: center;
+  font-size: 1.2em;
+  margin-top: 15px;
+}
 
+#ul03 li:hover {
+
+  transform: none;
+  transition: none;
+}
+.carrosel-wrapper{
+  width: 80%;
+  justify-content: center;
+}
+#pp01{
+   font-size: 1.5em;
+  width:50%;
+  padding: 0px;
+  text-align: center;
+  gap: 10px;
+}
+#ft-lav{
+  justify-content: center;
+  margin-left: 10px;
+}
+}
 
 @media screen and (max-width:480px)
 {
@@ -667,6 +764,7 @@ body{
   margin-top: 0px;
   margin: 0px;
   padding: 0px;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -686,6 +784,7 @@ body{
   justify-content: center;
     gap: 10px;
    font-size: 0.9em;
+  margin-right: 20px;
  }
  .rp01 li{
   padding: 5px;
@@ -697,6 +796,7 @@ body{
 
  }
  .rp02{
+   margin-right: 20px;
    margin-top: -25px;
    display: flex;
    padding: 0;
@@ -715,7 +815,7 @@ body{
 
  }
  .item-servico3{
-    padding-bottom: 5px;
+    padding-bottom: 7px;
  }
 
 
@@ -723,16 +823,15 @@ body{
   text-align: center;
     font-size: 1.9em;
     width: 80%;
+  margin-right: 40px;
  }
  #ul03{
-  justify-content: center;
+   margin-right: 65px;
   display: block;
-  margin: auto;
   column-count: 2;
+  margin: auto;
   width: 80%;
-  gap: 10px;
-
-
+  gap: 35px;
  }
 
 .destaque {
@@ -759,31 +858,43 @@ body{
 }
 .carrosel-wrapper{
   justify-content: center;
-  width: 100%;
+  width: 80%;
   margin: auto;
+   margin-right: 47px;
 }
-#pp01{
+#pp01{ 
+
     font-size: 1.3em;
     width: 80%;
+    margin: auto;
 }
 
 #ft-lav img{
- justify-content: center;
- width: 100%;
-
+  display: block;
+  margin: auto;
+    width: 70%;
 }
 #qm01{
-  margin-top: -157px;
+   margin-right: 20px;
+  margin-top: -137px;
 }
 
 
 #faq-item li{
+  font-size: 0.9em;
+  justify-items: center;
   justify-content: center;
   color: black;
 }
-#faq-resposta p{
-  font-size: 0.7em;
+#faq-resposta p{ 
+  margin-right: 20px;
 }
+#finalpg01{
+  font-size: 0.7em;
+  text-align: center;
+
+}
+
 #menu00:hover{
   transform: none;
 }
