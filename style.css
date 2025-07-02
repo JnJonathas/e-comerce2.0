@@ -152,6 +152,22 @@ body{
   text-align: center;
   border-radius: 15px;
 }
+.rp02 {
+ flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  padding: 0;
+  margin: 40px 0;
+  cursor: pointer;
+
+}
+
+.rp02 li {
+  text-align: center;
+  border-radius: 15px;
+}
 .item-servico{
     border: 2px solid black;
   border-radius: 15px;
@@ -626,7 +642,9 @@ body{
   }
 
   .menu {
+  height: 5vh;
   width: 100%;
+  max-width: 100%;
    padding: 0;
     gap: 10px;
     margin: 0;
@@ -646,10 +664,14 @@ body{
     margin: 0;
   }
   #ft-001 img{
-  margin-top: -15px;
-  max-width: 100%
+  margin-top: 0px;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  height: auto;
 }
 #cx01{
+  margin-left: 20px;
   width: 75%;
   height: 25px;
   justify-content: center;
@@ -657,11 +679,8 @@ body{
 #bt01{
   height: 25px;
 }
-#bt01:hover{
-  transform: scale(0.8);
-  transition: 0.3s ease;
-}
 .rp01{
+   margin-top: -95px;
    display: flex;
    padding: 0;
   justify-content: center;
@@ -677,6 +696,28 @@ body{
   max-width: 75%;
 
  }
+ .rp02{
+   margin-top: -25px;
+   display: flex;
+   padding: 0;
+  justify-content: center;
+    gap: 10px;
+   font-size: 0.9em;
+  height: 250px;
+ }
+ .rp02 li{
+  padding: 5px;
+  width: 45%;
+  text-align: center;
+ }
+ .rp02 img{
+  max-width: 75%;
+
+ }
+ .item-servico3{
+    padding-bottom: 5px;
+ }
+
 
 #h201{
   text-align: center;
@@ -743,8 +784,68 @@ body{
 #faq-resposta p{
   font-size: 0.7em;
 }
-.sem-hover:hover{
+#menu00:hover{
   transform: none;
-  pointer-events: none;
 }
+#menu01:hover{
+ transform: none;
+}
+#menu02:hover{
+ transform: none;
+}
+#menu03:hover{
+ transform: none;
+}
+#menu04:hover{
+ transform: none;
+}
+.carrinho:hover{
+ transform: none;
+}
+#cx01:hover{
+ transform: none;
+}
+#bt01:hover{
+height: auto;
+}
+.item-servico p:hover {
+ transform: none;
+}
+.item-servico1 p:hover{
+ transform: none;
+}
+.item-servico2 p:hover{
+ transform: none;
+}
+.item-servico3 p:hover{
+ transform: none;
+}
+.item-servico:hover{
+ transform: none;
+}
+.item-servico1:hover{
+ transform: none;
+}
+.item-servico2:hover{
+ transform: none;
+}
+.item-servico3:hover{
+ transform: none;
+}
+#ul03 li:hover{
+ transform: none;
+}
+.promo01:hover {
+ transform: none;
+}
+.promo01:hover .pdapromo.titulo{
+ transform: none;
+}
+.promo01:hover .pdapromo.detalhe{
+ transform: none;  
+}
+header{
+  width: 100%;
+}
+
 }
